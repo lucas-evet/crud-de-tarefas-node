@@ -48,4 +48,4 @@ npm install
 Desenvolvido por **Lucas Everaldo**.
 Fique à vontade para entrar em contato:
 
-- **LinkedIn**: <a href="https://www.linkedin.com/in/lucas-e-6396b41bb/" target="_blank">Perfil do LinkedIn</a>
+- **LinkedIn**: [Perfil do LinkedIn](https://www.linkedin.com/in/lucas-e-6396b41bb/)
