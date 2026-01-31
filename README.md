@@ -35,7 +35,7 @@ Este projeto é uma API para gerenciamento de tarefas (CRUD), desenvolvida duran
 git clone [https://github.com/lucas-evet/crud-de-tarefas-node.git]
 
 # Entre na pasta
-cd crud-de-tarefas-node
+cd crud-de-tarefas
 
 # Instale as dependências (csv-parse)
 npm install 
