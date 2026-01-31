@@ -7,8 +7,8 @@ const stream = fs.createReadStream(csvPath)
 
 const csvParse = parse({
   delimiter: ',',
-  skip_empy_Lines: true,
-  from_lime: 2
+  skip_empty_lines: true,
+  from_line: 2
 })
 
 async function execute() {
@@ -20,7 +20,7 @@ async function execute() {
     for await (const line of lineParse) {
         const [title, description] = line
 
-        await fetch('http:/localhost:3333/tasks',{
+        await fetch('http://localhost:3333/tasks',{
             method: 'POST',
             body: JSON.stringify({
                 title,
